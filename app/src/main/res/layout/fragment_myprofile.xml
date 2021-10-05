@@ -143,6 +143,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:id="@+id/btn_goMyPost"
                 android:text="내가쓴글"
                 android:textColor="@color/black"
                 android:background="@color/back"
@@ -152,22 +153,17 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="내거래내역"
+                android:id="@+id/btn_goTransInfo"
                 android:textColor="@color/black"
                 android:background="@color/back"
                 android:textAlignment="textStart"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="학교인증"
-                android:textColor="@color/black"
-                android:background="@color/back"
-                android:textAlignment="textStart"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="고객센터"
+                android:id="@+id/btn_goCS"
                 android:textColor="@color/black"
                 android:background="@color/back"
                 android:textAlignment="textStart"/>
@@ -176,6 +172,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="로그아웃"
+                android:id="@+id/btn_goLogout"
                 android:textColor="@color/black"
                 android:background="@color/back"
                 android:textAlignment="textStart"/>
