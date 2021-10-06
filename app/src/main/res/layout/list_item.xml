@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_mypost_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_mypost"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/iv_mypost_title"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="넷플"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/iv_mypost"
+            app:layout_constraintTop_toTopOf="@+id/iv_mypost" />
+
+        <TextView
+            android:id="@+id/tv_mypost_content"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="같이할 사람 구해요"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iv_mypost"
+            app:layout_constraintTop_toBottomOf="@+id/iv_mypost_title" />
+
+        <TextView
+            android:id="@+id/tv_mypost_loc"
+            android:layout_width="150dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="넷플"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iv_mypost"
+            app:layout_constraintTop_toBottomOf="@+id/tv_mypost_content" />
+
+        <TextView
+            android:id="@+id/tv_mypost_time"
+            android:layout_width="150dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="20dp"
+            android:text="넷플"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iv_mypost"
+            app:layout_constraintTop_toBottomOf="@+id/tv_mypost_loc" />
+
+        <TextView
+            android:id="@+id/tv_mypost_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="1000원"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_mypost_title"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:id="@+id/tv_mypost_people"
+            android:layout_width="69dp"
+            android:layout_height="29dp"
+            android:text="1/4"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/main"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_mypost"
+            app:layout_constraintEnd_toEndOf="@+id/tv_mypost_money" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

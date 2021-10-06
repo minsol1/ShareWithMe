@@ -1,5 +1,6 @@
 package com.minsol.swm
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -37,6 +38,13 @@ class myprofileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
+        btn_goMyPost.setOnClickListener {
+            activity?.let{
+                val intent = Intent(context, MyPostActivity::class.java)
+                startActivity(intent)
+            }
+        }
         return inflater.inflate(R.layout.fragment_myprofile, container, false)
     }
 

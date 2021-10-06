@@ -144,6 +144,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="내가쓴글"
+                android:id="@+id/btn_goMyPost"
                 android:textColor="@color/black"
                 android:background="@color/back"
                 android:textAlignment="textStart"/>

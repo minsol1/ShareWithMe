@@ -7,20 +7,27 @@
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/activity_manage_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/activity_my_post.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_chat.xml" value="0.264" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_cs_write.xml" value="0.264" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_home.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_inq_list.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_item_main.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_logout.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_main.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_manage_inq.xml" value="0.4" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_modify_profile.xml" value="0.264" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_my_inq.xml" value="0.2" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_my_post_list.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_my_wr_list.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_myprofile.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_see_profile.xml" value="0.264" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_trans_info.xml" value="0.14270833333333333" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_user_profile_manage.xml" value="0.264" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/fragment_write.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/app/src/main/res/layout/list_item.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/recyclerview/src/main/res/layout/activity_main.xml" value="0.18125" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/SWM/ShareWithMe/recyclerview/src/main/res/layout/list_item.xml" value="0.1" />
       </map>
     </option>
   </component>
